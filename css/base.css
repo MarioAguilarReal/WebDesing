@@ -1,0 +1,33 @@
+html{
+    font-size: 16px;
+}
+*{
+    font-family: sans-serif;
+    margin:0;
+    padding: 0;
+}
+.banner{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../static/background.jpg");
+}
+.banner::before{
+    background-color: black;
+}
+.banner-content{
+    text-align: center;
+}
+.banner-content > h1, .banner-content > h2{
+    padding: 0;
+    margin: 0;
+    color:white;
+}
+.banner-content > h1{
+    font-size: 3rem;
+}
+.banner-content > h2{
+    font-weight: 300;
+}
