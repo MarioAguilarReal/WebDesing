@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main .first{
+    justify-content: space-evenly;
+    height: 40vh;
+    background-color: beige;
+    padding: 0% 30% 0% 30%;
+}
+
+.center-container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 0% 30% 0% 30%;
+}
+
+
+main .first .left{
+    padding: 40px 20px 40px 20px;
+    background-color: gray;
+
+}
+
+main .first .right{
+    text-transform: uppercase;
+}
+
+main .second{
+    display: flex;
+    width: 100%;
+}
+main .second .left{
+    flex:1;
+    padding: 10px;
+    background-color: antiquewhite;
+    height: 60vh;
+}
+main .second .left li{
+    margin-left: 30px;
+}
+main .second .right{
+    flex: 1;
+}
+
+main .second .right .first-2{
+    height: 50%;
+    background-color: gray;
+}
+main .second .right .second-2{
+    background-color: aqua;
+    height: 50%;
+}
+
+
